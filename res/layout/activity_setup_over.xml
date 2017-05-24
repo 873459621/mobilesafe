@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="手机防盗" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="安全号码" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/TextStyle"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_phone"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="防盗保护" />
+
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/iv_lock"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_reset"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_reset_setup"
+        android:text="重新进入设置界面" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:text="手机防盗功能简介" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:text="GPS追踪：#*location*#" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:text="播放报警音乐：#*alarm*#" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:text="数据销毁：#*wipedata*#" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:text="远程锁屏：#*lockscreen*#" />
+
+</LinearLayout>

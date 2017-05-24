@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="2绑定SIM卡" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:text="通过绑定SIM卡：\n下次重启手机如果发现SIM卡被更换了，就会发送报警短信" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_sim_bound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="SIM卡未绑定"
+        mobilesafe:desOn="SIM卡已绑定"
+        mobilesafe:desTitle="点击绑定SIM卡" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_online" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/setup1" />
+
+        <Button style="@style/PreBtn" />
+        <Button style="@style/NextBtn" />
+    </RelativeLayout>
+
+</LinearLayout>

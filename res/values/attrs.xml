@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="com.doodlemobile.mobilesafe.view.SettingsItemView">
+        <attr name="desTitle" format="string" />
+        <attr name="desOff" format="string" />
+        <attr name="desOn" format="string" />
+    </declare-styleable>
+
+</resources>

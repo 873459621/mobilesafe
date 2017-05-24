@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="设置中心" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="自动更新已关闭"
+        mobilesafe:desOn="自动更新已开启"
+        mobilesafe:desTitle="设置自动更新" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="电话归属地显示已关闭"
+        mobilesafe:desOn="电话归属地显示已开启"
+        mobilesafe:desTitle="设置电话归属地的显示" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsClickView
+        android:id="@+id/scv_toast_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsClickView
+        android:id="@+id/scv_toast_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="拦截黑名单已关闭"
+        mobilesafe:desOn="拦截黑名单已开启"
+        mobilesafe:desTitle="设置是否拦截黑名单" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_rocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="小火箭显示已关闭"
+        mobilesafe:desOn="小火箭显示已开启"
+        mobilesafe:desTitle="设置小火箭的显示" />
+
+    <com.doodlemobile.mobilesafe.view.SettingsItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
+        android:id="@+id/siv_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobilesafe:desOff="程序锁已关闭"
+        mobilesafe:desOn="程序锁已开启"
+        mobilesafe:desTitle="设置程序锁的开启与关闭" />
+
+</LinearLayout>

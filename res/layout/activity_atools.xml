@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="高级工具" />
+
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_atools_item"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="归属地查询" />
+
+    <TextView
+        android:id="@+id/tv_sms_backup"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_atools_item"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="备份短信" />
+
+    <ProgressBar
+        android:id="@+id/pb_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</LinearLayout>

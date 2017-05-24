@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alpha_pink">#22FF0000</color>
+    <color name="alpha_black">#55000000</color>
+    <color name="alpha_gray">#55999999</color>
+    <color name="alpha_orange">#CCFFCC00</color>
+    <color name="alpha_blue">#550000FF</color>
+    <color name="alpha_green">#8800FF00</color>
+</resources>

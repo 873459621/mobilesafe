@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:duration="200"
+        android:drawable="@drawable/clearmemory_rocket_left"/>
+    <item
+        android:duration="200"
+        android:drawable="@drawable/clearmemory_rocket_right"/>
+
+</animation-list>
