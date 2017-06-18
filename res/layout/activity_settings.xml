@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -9,7 +10,6 @@
         android:text="设置中心" />
 
     <com.doodlemobile.mobilesafe.view.SettingsItemView
-        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
         android:id="@+id/siv_update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,6 @@
         mobilesafe:desTitle="设置自动更新" />
 
     <com.doodlemobile.mobilesafe.view.SettingsItemView
-        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
         android:id="@+id/siv_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +36,6 @@
         android:layout_height="wrap_content" />
 
     <com.doodlemobile.mobilesafe.view.SettingsItemView
-        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
         android:id="@+id/siv_blacklist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +44,6 @@
         mobilesafe:desTitle="设置是否拦截黑名单" />
 
     <com.doodlemobile.mobilesafe.view.SettingsItemView
-        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
         android:id="@+id/siv_rocket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +52,6 @@
         mobilesafe:desTitle="设置小火箭的显示" />
 
     <com.doodlemobile.mobilesafe.view.SettingsItemView
-        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.doodlemobile.mobilesafe"
         android:id="@+id/siv_app_lock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
